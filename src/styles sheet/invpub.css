@@ -1,0 +1,74 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/BebasNeue-Regular.woff) format('woff');
+}
+
+
+.inv-publica{
+    width: 100%;
+    padding: auto;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imagen-invi{
+    margin-top: 5px;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    display: block;
+}
+
+.texto-inv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    
+}
+.texto-inv h2{
+    font-family: 'Bebas', Open sans-serif, Arial, Helvetica, sans-serif;
+ 
+    
+    text-align: center;
+
+    
+    /*centrar*/
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffff;
+    background: #FF7B00;
+    text-shadow: 1px 1px 1px  rgb(0 0 0 / 50%);
+    overflow: hidden;
+    padding: 1.25rem;
+    
+}
+
+@media screen and (max-width:500px) {
+    
+.texto-inv h2{
+    font-size: 1rem;
+    padding: 0.9rem;
+}
+}
+
+@media screen and (max-width:650px) {
+    
+    .texto-inv h2{
+        font-size: 1.5rem;
+        padding: 1.10rem;
+    }
+    }

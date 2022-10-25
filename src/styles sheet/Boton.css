@@ -1,0 +1,19 @@
+.boton{
+    background: #FF7B00;
+    font-family:Roboto;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    font-weight: bold;
+}
+p{ 
+    color: white;
+    /*display: table-cell;*/
+    vertical-align: center;
+    margin: 0 !important;
+    
+}
+
+.boton :hover{
+    background: #934700;
+}
